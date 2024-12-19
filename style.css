@@ -1,0 +1,102 @@
+.carousel-item{
+    height: 70vh;
+}
+
+.carousel-item img{
+    height: 100%;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel #element{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 35px;
+    color: black;
+    text-shadow: 0 0 5px black;
+}
+
+.carousel .banner-card{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+
+}
+
+.carousel .banner-card .card{
+    margin: 30px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.carousel .banner-card .card::-webkit-scrollbar{
+    display: none;
+}
+
+/* Accordion */
+#accordion{
+    height: 100vh;
+    background:linear-gradient(to top right,);
+    
+}
+
+#accordion .accordion-image img{
+    filter: drop-shadow((20px 10px 20px));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+
+    .carousel {
+        position: static;
+    }
+
+    .carousel .banner-card{
+        position: static;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Arrivals */
+#arrivals .card{
+    height: 350px;
+}
+
+#arrivals .card img{
+    height: 60%;
+    object-fit: contain;
+}
+
+#products .card{
+    width: 300px;
+}
+
